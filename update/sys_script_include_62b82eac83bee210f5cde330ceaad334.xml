@@ -19,7 +19,7 @@ NeedItUtils.prototype = {
 		var testdate = new GlideDateTime(strDate);
     
 		// If the testdate is the same as rightnow, return true, else return false
-		if (testdate.getDate() === rightnow.getDate()) {
+		if (testdate.getDate() == rightnow.getDate()) {
 			return true;
 		}
 		else {
@@ -45,14 +45,14 @@ NeedItUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-14 15:21:20</sys_created_on>
         <sys_id>62b82eac83bee210f5cde330ceaad334</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>NeedItUtils</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_62b82eac83bee210f5cde330ceaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-14 15:44:22</sys_updated_on>
+        <sys_updated_on>2025-07-14 20:27:58</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>62b82eac83bee210f5cde330ceaad334</id>
